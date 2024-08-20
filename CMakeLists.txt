@@ -6,8 +6,8 @@ project(sdk-ul-mu-pair)
 set(test_dir ${CMAKE_CURRENT_SOURCE_DIR}/test)
 set(lib_dir ${CMAKE_CURRENT_SOURCE_DIR}/lib)
 
-set(EXECUTABLE_OUTPUT_PATH ${test_dir})
-set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+# set(EXECUTABLE_OUTPUT_PATH ${test_dir})
+# set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
 
 include_directories(${lib_dir})
 aux_source_directory(${lib_dir} lib_list)

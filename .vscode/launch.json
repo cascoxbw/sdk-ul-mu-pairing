@@ -8,7 +8,7 @@
             "name": "test",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/test/test.out",
+            "program": "${workspaceFolder}/build/test.out",
             "cwd": "${workspaceFolder}"
         }
     ]
