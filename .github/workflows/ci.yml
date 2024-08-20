@@ -41,4 +41,4 @@ jobs:
       with:
         name: output
         path: |
-          ${{github.workspace}}/libpair.a
+          ${{github.workspace}}/build/libpair.a
