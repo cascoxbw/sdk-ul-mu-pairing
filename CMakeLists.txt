@@ -14,11 +14,15 @@ aux_source_directory(${lib_dir} lib_list)
 set(a pair)
 add_library(${a} ${lib_list})
 
-enable_testing()
-find_package(GTest REQUIRED)
+if ("${CMAKE_BUILD_TYPE}" STREQUAL "Release")
 
-set(exe test.out)
-add_executable(${exe} ${test_dir}/case.cpp)
-target_link_libraries(${exe} ${a} ${GTEST_BOTH_LIBRARIES})
+else()
+    enable_testing()
+    find_package(GTest REQUIRED)
 
-gtest_discover_tests(${exe})
+    set(exe test.out)
+    add_executable(${exe} ${test_dir}/case.cpp)
+    target_link_libraries(${exe} ${a} ${GTEST_BOTH_LIBRARIES})
+
+    gtest_discover_tests(${exe})
+endif()

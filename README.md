@@ -22,5 +22,5 @@ make
 
 ## Authors <a name = "authors"></a>
 
-- pengpeng
 - bowen
+- pengpeng
