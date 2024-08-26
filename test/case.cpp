@@ -1,9 +1,10 @@
 #include <gtest/gtest.h>
 #include "../lib/UlMuPair.hpp"
 
-TEST(Pair, hello) 
+TEST(Pair, main) 
 {
-    test();
-    EXPECT_STRNE("hello", "world");
-    EXPECT_EQ(7 * 6, 42);
+    sInput in;
+    sOutput out;
+    UlMuPair(&in,&out);
+    EXPECT_EQ(0, 0);
 }

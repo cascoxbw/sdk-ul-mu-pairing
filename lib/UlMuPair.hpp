@@ -1,1 +1,45 @@
-void test();
+
+#define SinrThold   3
+#define CorrThold   0.3
+#define MaxPair     2
+#define MaxLayer    2
+#define MaxUeCs1    16
+#define MaxPairSet  MaxUeCs1
+#define VectorSize  32
+#define MinPrbRate  0.9
+#define MaxPrbRate  1.1
+
+
+struct sUe
+{
+    int   id;
+    int   layer;
+    float sinrSu;
+    int   prb;
+    float vector[VectorSize];
+};
+
+struct sInput
+{
+    int ueNum;
+    sUe ue[MaxUeCs1]; //already sorted according to priority, 1st UE highest priority and last UE least priority
+};
+
+struct sPairSet
+{
+    int   id;
+    int   ueNum;
+    int   ueId[MaxPair];
+    int   prb;
+    float corrFactor;
+    float sinrMu;
+    int   layerSum;
+};
+
+struct sOutput
+{
+    int      setNum;
+    sPairSet set[MaxPairSet];
+};
+
+bool UlMuPair(sInput* pIn, sOutput* pOut);

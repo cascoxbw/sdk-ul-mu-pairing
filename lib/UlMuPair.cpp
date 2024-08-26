@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include "UlMuPair.hpp"
 
-void test()
+bool UlMuPair(sInput* pIn, sOutput* pOut)
 {
-    printf("a \n");
+    printf("ul mu pair\n");
+    return true;
 }
