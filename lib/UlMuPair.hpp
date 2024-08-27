@@ -1,14 +1,15 @@
 
 #define SinrThold   3
 #define CorrThold   0.3
-#define MaxPair     2
-#define MaxLayer    2
 #define MaxUeCs1    16
 #define MaxPairSet  MaxUeCs1
 #define VectorSize  32
 #define MinPrbRate  0.9
 #define MaxPrbRate  1.1
-
+#define MaxPrb      273
+#define MaxPair     2
+#define UeLayer     1
+#define PairSetLayer MaxPair * UeLayer
 
 struct sUe
 {
@@ -27,12 +28,12 @@ struct sInput
 
 struct sPairSet
 {
-    int   id;
+    // int   id;
     int   ueNum;
     int   ueId[MaxPair];
     int   prb;
     float corrFactor;
-    float sinrMu;
+    float sinrMu[MaxPair];
     int   layerSum;
 };
 
