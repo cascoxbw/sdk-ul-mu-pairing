@@ -1,0 +1,754 @@
+The intialization of candidateUE list is done!
+The input candidateUE list are:
+ 
+candidateUEList{1} =
+ 
+              msId: 1
+    reTransmission: 1
+    activityStatus: 1
+         numLayers: 1
+                PF: 15.3519
+        SINR_pusch: 9
+      requestedRBs: 16
+              beam: [16×1 double]
+
+ 
+ 
+candidateUEList{2} =
+ 
+              msId: 2
+    reTransmission: 1
+    activityStatus: 1
+         numLayers: 1
+                PF: 14.9439
+        SINR_pusch: 25
+      requestedRBs: 27
+              beam: [16×1 double]
+
+ 
+ 
+candidateUEList{3} =
+ 
+              msId: 3
+    reTransmission: 1
+    activityStatus: 1
+         numLayers: 1
+                PF: 14.6518
+        SINR_pusch: 29
+      requestedRBs: 16
+              beam: [16×1 double]
+
+ 
+ 
+candidateUEList{4} =
+ 
+              msId: 4
+    reTransmission: 1
+    activityStatus: 1
+         numLayers: 1
+                PF: 13.5861
+        SINR_pusch: 12
+      requestedRBs: 29
+              beam: [16×1 double]
+
+ 
+ 
+candidateUEList{5} =
+ 
+              msId: 5
+    reTransmission: 1
+    activityStatus: 1
+         numLayers: 1
+                PF: 12.6753
+        SINR_pusch: 6
+      requestedRBs: 24
+              beam: [16×1 double]
+
+ 
+ 
+candidateUEList{6} =
+ 
+              msId: 6
+    reTransmission: 1
+    activityStatus: 1
+         numLayers: 1
+                PF: 12.1238
+        SINR_pusch: 20
+      requestedRBs: 28
+              beam: [16×1 double]
+
+ 
+ 
+candidateUEList{7} =
+ 
+              msId: 7
+    reTransmission: 1
+    activityStatus: 1
+         numLayers: 1
+                PF: 11.8901
+        SINR_pusch: 9
+      requestedRBs: 27
+              beam: [16×1 double]
+
+ 
+ 
+candidateUEList{8} =
+ 
+              msId: 8
+    reTransmission: 1
+    activityStatus: 1
+         numLayers: 1
+                PF: 11.2967
+        SINR_pusch: 5
+      requestedRBs: 18
+              beam: [16×1 double]
+
+ 
+ 
+candidateUEList{9} =
+ 
+              msId: 9
+    reTransmission: 1
+    activityStatus: 1
+         numLayers: 1
+                PF: 10.8598
+        SINR_pusch: 29
+      requestedRBs: 21
+              beam: [16×1 double]
+
+ 
+ 
+candidateUEList{10} =
+ 
+              msId: 10
+    reTransmission: 1
+    activityStatus: 1
+         numLayers: 1
+                PF: 10.4919
+        SINR_pusch: 7
+      requestedRBs: 28
+              beam: [16×1 double]
+
+ 
+ 
+candidateUEList{11} =
+ 
+              msId: 11
+    reTransmission: 1
+    activityStatus: 1
+         numLayers: 1
+                PF: 10.4876
+        SINR_pusch: 16
+      requestedRBs: 27
+              beam: [16×1 double]
+
+ 
+ 
+candidateUEList{12} =
+ 
+              msId: 12
+    reTransmission: 1
+    activityStatus: 1
+         numLayers: 1
+                PF: 6.7482
+        SINR_pusch: 29
+      requestedRBs: 25
+              beam: [16×1 double]
+
+ 
+ 
+candidateUEList{13} =
+ 
+              msId: 13
+    reTransmission: 1
+    activityStatus: 1
+         numLayers: 1
+                PF: 6.2756
+        SINR_pusch: 5
+      requestedRBs: 20
+              beam: [16×1 double]
+
+ 
+ 
+candidateUEList{14} =
+ 
+              msId: 14
+    reTransmission: 1
+    activityStatus: 1
+         numLayers: 1
+                PF: 2.7390
+        SINR_pusch: 8
+      requestedRBs: 29
+              beam: [16×1 double]
+
+ 
+ 
+candidateUEList{15} =
+ 
+              msId: 15
+    reTransmission: 1
+    activityStatus: 1
+         numLayers: 1
+                PF: 0.5714
+        SINR_pusch: 28
+      requestedRBs: 21
+              beam: [16×1 double]
+
+ 
+ 
+candidateUEList{16} =
+ 
+              msId: 16
+    reTransmission: 1
+    activityStatus: 1
+         numLayers: 1
+                PF: 0.5093
+        SINR_pusch: 8
+      requestedRBs: 26
+              beam: [16×1 double]
+
+ 
+the beam weights of candidateUE are:
+
+ans =
+
+    'candidateUE 1 beam:'
+
+   0.2500 + 0.0000i
+   0.2079 + 0.1389i
+   0.0957 + 0.2310i
+  -0.0488 + 0.2452i
+  -0.1768 + 0.1768i
+  -0.2452 + 0.0488i
+  -0.2310 - 0.0957i
+  -0.1389 - 0.2079i
+   0.2500 + 0.0000i
+   0.2079 + 0.1389i
+   0.0957 + 0.2310i
+  -0.0488 + 0.2452i
+  -0.1768 + 0.1768i
+  -0.2452 + 0.0488i
+  -0.2310 - 0.0957i
+  -0.1389 - 0.2079i
+
+
+ans =
+
+    'candidateUE 2 beam:'
+
+   0.2500 + 0.0000i
+  -0.0957 + 0.2310i
+  -0.1768 - 0.1768i
+   0.2310 - 0.0957i
+   0.0000 + 0.2500i
+  -0.2310 - 0.0957i
+   0.1768 - 0.1768i
+   0.0957 + 0.2310i
+   0.1768 + 0.1768i
+  -0.2310 + 0.0957i
+  -0.0000 - 0.2500i
+   0.2310 + 0.0957i
+  -0.1768 + 0.1768i
+  -0.0957 - 0.2310i
+   0.2500 - 0.0000i
+  -0.0957 + 0.2310i
+
+
+ans =
+
+    'candidateUE 3 beam:'
+
+   0.2500 + 0.0000i
+  -0.2310 + 0.0957i
+   0.1768 - 0.1768i
+  -0.0957 + 0.2310i
+  -0.0000 - 0.2500i
+   0.0957 + 0.2310i
+  -0.1768 - 0.1768i
+   0.2310 + 0.0957i
+   0.2500 + 0.0000i
+  -0.2310 + 0.0957i
+   0.1768 - 0.1768i
+  -0.0957 + 0.2310i
+  -0.0000 - 0.2500i
+   0.0957 + 0.2310i
+  -0.1768 - 0.1768i
+   0.2310 + 0.0957i
+
+
+ans =
+
+    'candidateUE 4 beam:'
+
+   0.2500 + 0.0000i
+   0.0488 - 0.2452i
+  -0.2310 - 0.0957i
+  -0.1389 + 0.2079i
+   0.1768 + 0.1768i
+   0.2079 - 0.1389i
+  -0.0957 - 0.2310i
+  -0.2452 + 0.0488i
+  -0.1768 + 0.1768i
+   0.1389 + 0.2079i
+   0.2310 - 0.0957i
+  -0.0488 - 0.2452i
+  -0.2500 - 0.0000i
+  -0.0488 + 0.2452i
+   0.2310 + 0.0957i
+   0.1389 - 0.2079i
+
+
+ans =
+
+    'candidateUE 5 beam:'
+
+   0.2500 + 0.0000i
+  -0.2310 + 0.0957i
+   0.1768 - 0.1768i
+  -0.0957 + 0.2310i
+  -0.0000 - 0.2500i
+   0.0957 + 0.2310i
+  -0.1768 - 0.1768i
+   0.2310 + 0.0957i
+   0.0000 + 0.2500i
+  -0.0957 - 0.2310i
+   0.1768 + 0.1768i
+  -0.2310 - 0.0957i
+   0.2500 - 0.0000i
+  -0.2310 + 0.0957i
+   0.1768 - 0.1768i
+  -0.0957 + 0.2310i
+
+
+ans =
+
+    'candidateUE 6 beam:'
+
+   0.2500 + 0.0000i
+  -0.0000 - 0.2500i
+  -0.2500 + 0.0000i
+   0.0000 + 0.2500i
+   0.2500 - 0.0000i
+  -0.0000 - 0.2500i
+  -0.2500 + 0.0000i
+  -0.0000 + 0.2500i
+   0.1768 + 0.1768i
+   0.1768 - 0.1768i
+  -0.1768 - 0.1768i
+  -0.1768 + 0.1768i
+   0.1768 + 0.1768i
+   0.1768 - 0.1768i
+  -0.1768 - 0.1768i
+  -0.1768 + 0.1768i
+
+
+ans =
+
+    'candidateUE 7 beam:'
+
+   0.2500 + 0.0000i
+  -0.1768 - 0.1768i
+   0.0000 + 0.2500i
+   0.1768 - 0.1768i
+  -0.2500 + 0.0000i
+   0.1768 + 0.1768i
+  -0.0000 - 0.2500i
+  -0.1768 + 0.1768i
+   0.1768 - 0.1768i
+  -0.2500 + 0.0000i
+   0.1768 + 0.1768i
+  -0.0000 - 0.2500i
+  -0.1768 + 0.1768i
+   0.2500 - 0.0000i
+  -0.1768 - 0.1768i
+   0.0000 + 0.2500i
+
+
+ans =
+
+    'candidateUE 8 beam:'
+
+   0.2500 + 0.0000i
+  -0.2452 + 0.0488i
+   0.2310 - 0.0957i
+  -0.2079 + 0.1389i
+   0.1768 - 0.1768i
+  -0.1389 + 0.2079i
+   0.0957 - 0.2310i
+  -0.0488 + 0.2452i
+   0.1768 - 0.1768i
+  -0.1389 + 0.2079i
+   0.0957 - 0.2310i
+  -0.0488 + 0.2452i
+  -0.0000 - 0.2500i
+   0.0488 + 0.2452i
+  -0.0957 - 0.2310i
+   0.1389 + 0.2079i
+
+
+ans =
+
+    'candidateUE 9 beam:'
+
+   0.2500 + 0.0000i
+  -0.2310 - 0.0957i
+   0.1768 + 0.1768i
+  -0.0957 - 0.2310i
+   0.0000 + 0.2500i
+   0.0957 - 0.2310i
+  -0.1768 + 0.1768i
+   0.2310 - 0.0957i
+  -0.1768 - 0.1768i
+   0.0957 + 0.2310i
+  -0.0000 - 0.2500i
+  -0.0957 + 0.2310i
+   0.1768 - 0.1768i
+  -0.2310 + 0.0957i
+   0.2500 - 0.0000i
+  -0.2310 - 0.0957i
+
+
+ans =
+
+    'candidateUE 10 beam:'
+
+   0.2500 + 0.0000i
+   0.0000 + 0.2500i
+  -0.2500 + 0.0000i
+  -0.0000 - 0.2500i
+   0.2500 - 0.0000i
+   0.0000 + 0.2500i
+  -0.2500 + 0.0000i
+  -0.0000 - 0.2500i
+   0.1768 + 0.1768i
+  -0.1768 + 0.1768i
+  -0.1768 - 0.1768i
+   0.1768 - 0.1768i
+   0.1768 + 0.1768i
+  -0.1768 + 0.1768i
+  -0.1768 - 0.1768i
+   0.1768 - 0.1768i
+
+
+ans =
+
+    'candidateUE 11 beam:'
+
+   0.2500 + 0.0000i
+   0.1768 - 0.1768i
+  -0.0000 - 0.2500i
+  -0.1768 - 0.1768i
+  -0.2500 + 0.0000i
+  -0.1768 + 0.1768i
+  -0.0000 + 0.2500i
+   0.1768 + 0.1768i
+  -0.2500 + 0.0000i
+  -0.1768 + 0.1768i
+   0.0000 + 0.2500i
+   0.1768 + 0.1768i
+   0.2500 - 0.0000i
+   0.1768 - 0.1768i
+   0.0000 - 0.2500i
+  -0.1768 - 0.1768i
+
+
+ans =
+
+    'candidateUE 12 beam:'
+
+   0.2500 + 0.0000i
+   0.1768 + 0.1768i
+   0.0000 + 0.2500i
+  -0.1768 + 0.1768i
+  -0.2500 + 0.0000i
+  -0.1768 - 0.1768i
+  -0.0000 - 0.2500i
+   0.1768 - 0.1768i
+  -0.1768 + 0.1768i
+  -0.2500 + 0.0000i
+  -0.1768 - 0.1768i
+  -0.0000 - 0.2500i
+   0.1768 - 0.1768i
+   0.2500 - 0.0000i
+   0.1768 + 0.1768i
+   0.0000 + 0.2500i
+
+
+ans =
+
+    'candidateUE 13 beam:'
+
+   0.2500 + 0.0000i
+   0.0957 - 0.2310i
+  -0.1768 - 0.1768i
+  -0.2310 + 0.0957i
+  -0.0000 + 0.2500i
+   0.2310 + 0.0957i
+   0.1768 - 0.1768i
+  -0.0957 - 0.2310i
+   0.1768 - 0.1768i
+  -0.0957 - 0.2310i
+  -0.2500 - 0.0000i
+  -0.0957 + 0.2310i
+   0.1768 + 0.1768i
+   0.2310 - 0.0957i
+  -0.0000 - 0.2500i
+  -0.2310 - 0.0957i
+
+
+ans =
+
+    'candidateUE 14 beam:'
+
+   0.2500 + 0.0000i
+   0.0488 + 0.2452i
+  -0.2310 + 0.0957i
+  -0.1389 - 0.2079i
+   0.1768 - 0.1768i
+   0.2079 + 0.1389i
+  -0.0957 + 0.2310i
+  -0.2452 - 0.0488i
+  -0.0000 - 0.2500i
+   0.2452 - 0.0488i
+   0.0957 + 0.2310i
+  -0.2079 + 0.1389i
+  -0.1768 - 0.1768i
+   0.1389 - 0.2079i
+   0.2310 + 0.0957i
+  -0.0488 + 0.2452i
+
+
+ans =
+
+    'candidateUE 15 beam:'
+
+   0.2500 + 0.0000i
+   0.0957 + 0.2310i
+  -0.1768 + 0.1768i
+  -0.2310 - 0.0957i
+  -0.0000 - 0.2500i
+   0.2310 - 0.0957i
+   0.1768 + 0.1768i
+  -0.0957 + 0.2310i
+   0.0000 + 0.2500i
+  -0.2310 + 0.0957i
+  -0.1768 - 0.1768i
+   0.0957 - 0.2310i
+   0.2500 - 0.0000i
+   0.0957 + 0.2310i
+  -0.1768 + 0.1768i
+  -0.2310 - 0.0957i
+
+
+ans =
+
+    'candidateUE 16 beam:'
+
+   0.2500 + 0.0000i
+  -0.2452 + 0.0488i
+   0.2310 - 0.0957i
+  -0.2079 + 0.1389i
+   0.1768 - 0.1768i
+  -0.1389 + 0.2079i
+   0.0957 - 0.2310i
+  -0.0488 + 0.2452i
+   0.1768 + 0.1768i
+  -0.2079 - 0.1389i
+   0.2310 + 0.0957i
+  -0.2452 - 0.0488i
+   0.2500 - 0.0000i
+  -0.2452 + 0.0488i
+   0.2310 - 0.0957i
+  -0.2079 + 0.1389i
+
+internal check for Corr factors and sinrMUdelta...!
+begin MU pairing process...
+
+ans =
+
+    'try pairing user 1 and user 2 failed, because of PRB ratio = 0.592593!'
+
+
+ans =
+
+    'try pairing user 5 and user 6 failed, because of PRB ratio = 0.857143!'
+
+
+ans =
+
+    'try pairing user 5 and user 7 failed, because of PRB ratio = 0.888889!'
+
+
+ans =
+
+    'try pairing user 5 and user 8 failed, because of PRB ratio = 1.333333!'
+
+
+ans =
+
+    'try pairing user 5 and user 9 failed, because of PRB ratio = 1.142857!'
+
+
+ans =
+
+    'try pairing user 5 and user 10 failed, because of PRB ratio = 0.857143!'
+
+
+ans =
+
+    'try pairing user 5 and user 11 failed, because of PRB ratio = 0.888889!'
+
+
+ans =
+
+    'try pairing user 8 and user 9 failed, because of PRB ratio = 0.857143!'
+
+
+ans =
+
+    'try pairing user 8 and user 10 failed, because of PRB ratio = 0.642857!'
+
+
+ans =
+
+    'try pairing user 8 and user 11 failed, because of PRB ratio = 0.666667!'
+
+
+ans =
+
+    'try pairing user 9 and user 10 failed, because of PRB ratio = 0.750000!'
+
+
+ans =
+
+    'try pairing user 9 and user 11 failed, because of PRB ratio = 0.777778!'
+
+
+ans =
+
+    'try pairing user 9 and user 14 failed, because of PRB ratio = 0.724138!'
+
+
+ans =
+
+    'try pairing user 14 and user 16 failed, because of PRB ratio = 1.115385!'
+
+pairing process done! output pairSet list are:
+ 
+pairSetList{1} =
+ 
+         ueNum: 2
+         msId1: 1
+         msId2: 3
+           prb: 16
+    corrFactor: 0.0100
+      sinrMU_A: 8.6666
+      sinrMU_B: 19.4679
+      layerSum: 2
+
+ 
+ 
+pairSetList{2} =
+ 
+         ueNum: 2
+         msId1: 2
+         msId2: 4
+           prb: 27
+    corrFactor: 0.0039
+      sinrMU_A: 21.4836
+      sinrMU_B: 11.7367
+      layerSum: 2
+
+ 
+ 
+pairSetList{3} =
+ 
+         ueNum: 2
+         msId1: 5
+         msId2: 12
+           prb: 24
+    corrFactor: 0.0193
+      sinrMU_A: 5.6787
+      sinrMU_B: 16.8720
+      layerSum: 2
+
+ 
+ 
+pairSetList{4} =
+ 
+         ueNum: 2
+         msId1: 6
+         msId2: 7
+           prb: 28
+    corrFactor: 2.9524e-32
+      sinrMU_A: 20
+      sinrMU_B: 9.0000
+      layerSum: 2
+
+ 
+ 
+pairSetList{5} =
+ 
+         ueNum: 2
+         msId1: 8
+         msId2: 13
+           prb: 18
+    corrFactor: 0.0100
+      sinrMU_A: 4.8642
+      sinrMU_B: 4.8642
+      layerSum: 2
+
+ 
+ 
+pairSetList{6} =
+ 
+         ueNum: 2
+         msId1: 9
+         msId2: 15
+           prb: 21
+    corrFactor: 1.2519e-32
+      sinrMU_A: 29
+      sinrMU_B: 28
+      layerSum: 2
+
+ 
+ 
+pairSetList{7} =
+ 
+         ueNum: 2
+         msId1: 10
+         msId2: 11
+           prb: 28
+    corrFactor: 2.9557e-33
+      sinrMU_A: 7
+      sinrMU_B: 16
+      layerSum: 2
+
+ 
+ 
+pairSetList{8} =
+ 
+         ueNum: 1
+         msId1: 14
+         msId2: -1
+           prb: 29
+    corrFactor: 0
+      sinrMU_A: 8
+      sinrMU_B: -100
+      layerSum: 1
+
+ 
+ 
+pairSetList{9} =
+ 
+         ueNum: 1
+         msId1: 16
+         msId2: -1
+           prb: 26
+    corrFactor: 0
+      sinrMU_A: 8
+      sinrMU_B: -100
+      layerSum: 1
+
+ 
+>> 

@@ -57,6 +57,12 @@ availablePRBnum = systemBandwidth;
 candidateUEList = CS1;
 disp('The input candidateUE list are:')
 celldisp(candidateUEList);
+disp('the beam weights of candidateUE are:')
+for jj= 1:numUEs_CS1
+    beam = candidateUEList{jj}.beam;
+    sprintf('candidateUE %d beam:',candidateUEList{jj}.msId)
+    disp(beam)
+end
 pairSetList = {}; % initialization for output
 %%% internal check: across correlation factors and sinrDelta%%%
 corrMatrix = zeros(numUEs_CS1, numUEs_CS1);
