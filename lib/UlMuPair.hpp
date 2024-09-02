@@ -28,8 +28,7 @@ struct sInput
 
 struct sPairSet
 {
-    // int   id;
-    int   ueNum;
+    int   ueNum; //0: set unused, 1: set for su, > 1: set for mu
     int   ueId[MaxPair];
     int   prb;
     float corrFactor;
