@@ -1,0 +1,1023 @@
+The intialization of candidateUE list is done!
+The input candidateUE list are:
+ 
+candidateUEList{1} =
+ 
+              msId: 1
+    reTransmission: 1
+    activityStatus: 1
+         numLayers: 1
+                PF: 15.3519
+        SINR_pusch: 9
+      requestedRBs: 7
+              beam: [16×1 double]
+
+ 
+ 
+candidateUEList{2} =
+ 
+              msId: 2
+    reTransmission: 1
+    activityStatus: 1
+         numLayers: 1
+                PF: 14.9439
+        SINR_pusch: 15
+      requestedRBs: 21
+              beam: [16×1 double]
+
+ 
+ 
+candidateUEList{3} =
+ 
+              msId: 3
+    reTransmission: 1
+    activityStatus: 1
+         numLayers: 1
+                PF: 14.6518
+        SINR_pusch: 23
+      requestedRBs: 100
+              beam: [16×1 double]
+
+ 
+ 
+candidateUEList{4} =
+ 
+              msId: 4
+    reTransmission: 1
+    activityStatus: 1
+         numLayers: 1
+                PF: 13.5861
+        SINR_pusch: 19
+      requestedRBs: 45
+              beam: [16×1 double]
+
+ 
+ 
+candidateUEList{5} =
+ 
+              msId: 5
+    reTransmission: 1
+    activityStatus: 1
+         numLayers: 1
+                PF: 12.6753
+        SINR_pusch: 10
+      requestedRBs: 8
+              beam: [16×1 double]
+
+ 
+ 
+candidateUEList{6} =
+ 
+              msId: 6
+    reTransmission: 1
+    activityStatus: 1
+         numLayers: 1
+                PF: 12.1238
+        SINR_pusch: 2
+      requestedRBs: 2
+              beam: [16×1 double]
+
+ 
+ 
+candidateUEList{7} =
+ 
+              msId: 7
+    reTransmission: 1
+    activityStatus: 1
+         numLayers: 1
+                PF: 11.8901
+        SINR_pusch: 14
+      requestedRBs: 17
+              beam: [16×1 double]
+
+ 
+ 
+candidateUEList{8} =
+ 
+              msId: 8
+    reTransmission: 1
+    activityStatus: 1
+         numLayers: 1
+                PF: 11.2967
+        SINR_pusch: 24
+      requestedRBs: 122
+              beam: [16×1 double]
+
+ 
+ 
+candidateUEList{9} =
+ 
+              msId: 9
+    reTransmission: 1
+    activityStatus: 1
+         numLayers: 1
+                PF: 10.8598
+        SINR_pusch: 15
+      requestedRBs: 21
+              beam: [16×1 double]
+
+ 
+ 
+candidateUEList{10} =
+ 
+              msId: 10
+    reTransmission: 1
+    activityStatus: 1
+         numLayers: 1
+                PF: 10.4919
+        SINR_pusch: 1
+      requestedRBs: 2
+              beam: [16×1 double]
+
+ 
+ 
+candidateUEList{11} =
+ 
+              msId: 11
+    reTransmission: 1
+    activityStatus: 1
+         numLayers: 1
+                PF: 10.4876
+        SINR_pusch: 5
+      requestedRBs: 3
+              beam: [16×1 double]
+
+ 
+ 
+candidateUEList{12} =
+ 
+              msId: 12
+    reTransmission: 1
+    activityStatus: 1
+         numLayers: 1
+                PF: 6.7482
+        SINR_pusch: 8
+      requestedRBs: 5
+              beam: [16×1 double]
+
+ 
+ 
+candidateUEList{13} =
+ 
+              msId: 13
+    reTransmission: 1
+    activityStatus: 1
+         numLayers: 1
+                PF: 6.2756
+        SINR_pusch: 5
+      requestedRBs: 3
+              beam: [16×1 double]
+
+ 
+ 
+candidateUEList{14} =
+ 
+              msId: 14
+    reTransmission: 1
+    activityStatus: 1
+         numLayers: 1
+                PF: 2.7390
+        SINR_pusch: 7
+      requestedRBs: 5
+              beam: [16×1 double]
+
+ 
+ 
+candidateUEList{15} =
+ 
+              msId: 15
+    reTransmission: 1
+    activityStatus: 1
+         numLayers: 1
+                PF: 0.5714
+        SINR_pusch: 18
+      requestedRBs: 37
+              beam: [16×1 double]
+
+ 
+ 
+candidateUEList{16} =
+ 
+              msId: 16
+    reTransmission: 1
+    activityStatus: 1
+         numLayers: 1
+                PF: 0.5093
+        SINR_pusch: 12
+      requestedRBs: 12
+              beam: [16×1 double]
+
+ 
+the beam weights of candidateUE are:
+
+ans =
+
+    'candidateUE 1 beam:'
+
+   0.2500 + 0.0000i
+   0.0957 - 0.2310i
+  -0.1768 - 0.1768i
+  -0.2310 + 0.0957i
+  -0.0000 + 0.2500i
+   0.2310 + 0.0957i
+   0.1768 - 0.1768i
+  -0.0957 - 0.2310i
+  -0.2500 + 0.0000i
+  -0.0957 + 0.2310i
+   0.1768 + 0.1768i
+   0.2310 - 0.0957i
+   0.0000 - 0.2500i
+  -0.2310 - 0.0957i
+  -0.1768 + 0.1768i
+   0.0957 + 0.2310i
+
+
+ans =
+
+    'candidateUE 2 beam:'
+
+   0.2500 + 0.0000i
+  -0.2452 - 0.0488i
+   0.2310 + 0.0957i
+  -0.2079 - 0.1389i
+   0.1768 + 0.1768i
+  -0.1389 - 0.2079i
+   0.0957 + 0.2310i
+  -0.0488 - 0.2452i
+  -0.2500 + 0.0000i
+   0.2452 + 0.0488i
+  -0.2310 - 0.0957i
+   0.2079 + 0.1389i
+  -0.1768 - 0.1768i
+   0.1389 + 0.2079i
+  -0.0957 - 0.2310i
+   0.0488 + 0.2452i
+
+
+ans =
+
+    'candidateUE 3 beam:'
+
+   0.2500 + 0.0000i
+  -0.0488 + 0.2452i
+  -0.2310 - 0.0957i
+   0.1389 - 0.2079i
+   0.1768 + 0.1768i
+  -0.2079 + 0.1389i
+  -0.0957 - 0.2310i
+   0.2452 - 0.0488i
+   0.1768 + 0.1768i
+  -0.2079 + 0.1389i
+  -0.0957 - 0.2310i
+   0.2452 - 0.0488i
+   0.0000 + 0.2500i
+  -0.2452 - 0.0488i
+   0.0957 - 0.2310i
+   0.2079 + 0.1389i
+
+
+ans =
+
+    'candidateUE 4 beam:'
+
+   0.2500 + 0.0000i
+  -0.0000 - 0.2500i
+  -0.2500 + 0.0000i
+   0.0000 + 0.2500i
+   0.2500 - 0.0000i
+  -0.0000 - 0.2500i
+  -0.2500 + 0.0000i
+  -0.0000 + 0.2500i
+   0.2500 + 0.0000i
+  -0.0000 - 0.2500i
+  -0.2500 + 0.0000i
+   0.0000 + 0.2500i
+   0.2500 - 0.0000i
+  -0.0000 - 0.2500i
+  -0.2500 + 0.0000i
+  -0.0000 + 0.2500i
+
+
+ans =
+
+    'candidateUE 5 beam:'
+
+   0.2500 + 0.0000i
+  -0.2310 - 0.0957i
+   0.1768 + 0.1768i
+  -0.0957 - 0.2310i
+   0.0000 + 0.2500i
+   0.0957 - 0.2310i
+  -0.1768 + 0.1768i
+   0.2310 - 0.0957i
+   0.1768 + 0.1768i
+  -0.0957 - 0.2310i
+   0.0000 + 0.2500i
+   0.0957 - 0.2310i
+  -0.1768 + 0.1768i
+   0.2310 - 0.0957i
+  -0.2500 + 0.0000i
+   0.2310 + 0.0957i
+
+
+ans =
+
+    'candidateUE 6 beam:'
+
+   0.2500 + 0.0000i
+   0.2452 + 0.0488i
+   0.2310 + 0.0957i
+   0.2079 + 0.1389i
+   0.1768 + 0.1768i
+   0.1389 + 0.2079i
+   0.0957 + 0.2310i
+   0.0488 + 0.2452i
+  -0.1768 - 0.1768i
+  -0.1389 - 0.2079i
+  -0.0957 - 0.2310i
+  -0.0488 - 0.2452i
+  -0.0000 - 0.2500i
+   0.0488 - 0.2452i
+   0.0957 - 0.2310i
+   0.1389 - 0.2079i
+
+
+ans =
+
+    'candidateUE 7 beam:'
+
+   0.2500 + 0.0000i
+  -0.0000 - 0.2500i
+  -0.2500 + 0.0000i
+   0.0000 + 0.2500i
+   0.2500 - 0.0000i
+  -0.0000 - 0.2500i
+  -0.2500 + 0.0000i
+  -0.0000 + 0.2500i
+   0.1768 - 0.1768i
+  -0.1768 - 0.1768i
+  -0.1768 + 0.1768i
+   0.1768 + 0.1768i
+   0.1768 - 0.1768i
+  -0.1768 - 0.1768i
+  -0.1768 + 0.1768i
+   0.1768 + 0.1768i
+
+
+ans =
+
+    'candidateUE 8 beam:'
+
+   0.2500 + 0.0000i
+   0.1768 + 0.1768i
+   0.0000 + 0.2500i
+  -0.1768 + 0.1768i
+  -0.2500 + 0.0000i
+  -0.1768 - 0.1768i
+  -0.0000 - 0.2500i
+   0.1768 - 0.1768i
+   0.1768 + 0.1768i
+   0.0000 + 0.2500i
+  -0.1768 + 0.1768i
+  -0.2500 + 0.0000i
+  -0.1768 - 0.1768i
+  -0.0000 - 0.2500i
+   0.1768 - 0.1768i
+   0.2500 - 0.0000i
+
+
+ans =
+
+    'candidateUE 9 beam:'
+
+   0.2500 + 0.0000i
+  -0.2452 + 0.0488i
+   0.2310 - 0.0957i
+  -0.2079 + 0.1389i
+   0.1768 - 0.1768i
+  -0.1389 + 0.2079i
+   0.0957 - 0.2310i
+  -0.0488 + 0.2452i
+   0.2500 + 0.0000i
+  -0.2452 + 0.0488i
+   0.2310 - 0.0957i
+  -0.2079 + 0.1389i
+   0.1768 - 0.1768i
+  -0.1389 + 0.2079i
+   0.0957 - 0.2310i
+  -0.0488 + 0.2452i
+
+
+ans =
+
+    'candidateUE 10 beam:'
+
+   0.2500 + 0.0000i
+  -0.0957 + 0.2310i
+  -0.1768 - 0.1768i
+   0.2310 - 0.0957i
+   0.0000 + 0.2500i
+  -0.2310 - 0.0957i
+   0.1768 - 0.1768i
+   0.0957 + 0.2310i
+  -0.0000 - 0.2500i
+   0.2310 + 0.0957i
+  -0.1768 + 0.1768i
+  -0.0957 - 0.2310i
+   0.2500 - 0.0000i
+  -0.0957 + 0.2310i
+  -0.1768 - 0.1768i
+   0.2310 - 0.0957i
+
+
+ans =
+
+    'candidateUE 11 beam:'
+
+   0.2500 + 0.0000i
+   0.0488 - 0.2452i
+  -0.2310 - 0.0957i
+  -0.1389 + 0.2079i
+   0.1768 + 0.1768i
+   0.2079 - 0.1389i
+  -0.0957 - 0.2310i
+  -0.2452 + 0.0488i
+  -0.1768 + 0.1768i
+   0.1389 + 0.2079i
+   0.2310 - 0.0957i
+  -0.0488 - 0.2452i
+  -0.2500 - 0.0000i
+  -0.0488 + 0.2452i
+   0.2310 + 0.0957i
+   0.1389 - 0.2079i
+
+
+ans =
+
+    'candidateUE 12 beam:'
+
+   0.2500 + 0.0000i
+  -0.2500 + 0.0000i
+   0.2500 - 0.0000i
+  -0.2500 + 0.0000i
+   0.2500 - 0.0000i
+  -0.2500 + 0.0000i
+   0.2500 - 0.0000i
+  -0.2500 + 0.0000i
+   0.1768 - 0.1768i
+  -0.1768 + 0.1768i
+   0.1768 - 0.1768i
+  -0.1768 + 0.1768i
+   0.1768 - 0.1768i
+  -0.1768 + 0.1768i
+   0.1768 - 0.1768i
+  -0.1768 + 0.1768i
+
+
+ans =
+
+    'candidateUE 13 beam:'
+
+   0.2500 + 0.0000i
+  -0.2079 - 0.1389i
+   0.0957 + 0.2310i
+   0.0488 - 0.2452i
+  -0.1768 + 0.1768i
+   0.2452 - 0.0488i
+  -0.2310 - 0.0957i
+   0.1389 + 0.2079i
+   0.0000 + 0.2500i
+   0.1389 - 0.2079i
+  -0.2310 + 0.0957i
+   0.2452 + 0.0488i
+  -0.1768 - 0.1768i
+   0.0488 + 0.2452i
+   0.0957 - 0.2310i
+  -0.2079 + 0.1389i
+
+
+ans =
+
+    'candidateUE 14 beam:'
+
+   0.2500 + 0.0000i
+  -0.1768 - 0.1768i
+   0.0000 + 0.2500i
+   0.1768 - 0.1768i
+  -0.2500 + 0.0000i
+   0.1768 + 0.1768i
+  -0.0000 - 0.2500i
+  -0.1768 + 0.1768i
+   0.1768 - 0.1768i
+  -0.2500 + 0.0000i
+   0.1768 + 0.1768i
+  -0.0000 - 0.2500i
+  -0.1768 + 0.1768i
+   0.2500 - 0.0000i
+  -0.1768 - 0.1768i
+   0.0000 + 0.2500i
+
+
+ans =
+
+    'candidateUE 15 beam:'
+
+   0.2500 + 0.0000i
+  -0.0488 - 0.2452i
+  -0.2310 + 0.0957i
+   0.1389 + 0.2079i
+   0.1768 - 0.1768i
+  -0.2079 - 0.1389i
+  -0.0957 + 0.2310i
+   0.2452 + 0.0488i
+   0.1768 - 0.1768i
+  -0.2079 - 0.1389i
+  -0.0957 + 0.2310i
+   0.2452 + 0.0488i
+  -0.0000 - 0.2500i
+  -0.2452 + 0.0488i
+   0.0957 + 0.2310i
+   0.2079 - 0.1389i
+
+
+ans =
+
+    'candidateUE 16 beam:'
+
+   0.2500 + 0.0000i
+   0.2310 + 0.0957i
+   0.1768 + 0.1768i
+   0.0957 + 0.2310i
+   0.0000 + 0.2500i
+  -0.0957 + 0.2310i
+  -0.1768 + 0.1768i
+  -0.2310 + 0.0957i
+  -0.1768 - 0.1768i
+  -0.0957 - 0.2310i
+  -0.0000 - 0.2500i
+   0.0957 - 0.2310i
+   0.1768 - 0.1768i
+   0.2310 - 0.0957i
+   0.2500 - 0.0000i
+   0.2310 + 0.0957i
+
+internal check for Corr factors and sinrMUdelta...!
+begin MU pairing process...
+
+ans =
+
+    'try pairing user 1 and user 2 failed, because of PRB ratio = 3.000000!'
+
+
+ans =
+
+    'try pairing user 1 and user 3 failed, because of PRB ratio = 14.285714!'
+
+
+ans =
+
+    'try pairing user 1 and user 4 failed, because of PRB ratio = 6.428571!'
+
+
+ans =
+
+    'try pairing user 1 and user 5 failed, because of PRB ratio = 1.142857!'
+
+
+ans =
+
+    'try pairing user 1 and user 7 failed, because of PRB ratio = 2.428571!'
+
+
+ans =
+
+    'try pairing user 1 and user 8 failed, because of PRB ratio = 17.428571!'
+
+
+ans =
+
+    'try pairing user 1 and user 9 failed, because of PRB ratio = 3.000000!'
+
+
+ans =
+
+    'try pairing user 1 and user 11 failed, due to corrFactor!'
+
+
+ans =
+
+    'try pairing user 1 and user 12 failed, because of PRB ratio = 0.714286!'
+
+
+ans =
+
+    'try pairing user 1 and user 13 failed, because of PRB ratio = 0.428571!'
+
+
+ans =
+
+    'try pairing user 1 and user 14 failed, because of PRB ratio = 0.714286!'
+
+
+ans =
+
+    'try pairing user 1 and user 15 failed, because of PRB ratio = 5.285714!'
+
+
+ans =
+
+    'try pairing user 1 and user 16 failed, because of PRB ratio = 1.714286!'
+
+
+ans =
+
+    'try pairing user 2 and user 3 failed, because of PRB ratio = 4.761905!'
+
+
+ans =
+
+    'try pairing user 2 and user 4 failed, because of PRB ratio = 2.142857!'
+
+
+ans =
+
+    'try pairing user 2 and user 5 failed, because of PRB ratio = 0.380952!'
+
+
+ans =
+
+    'try pairing user 2 and user 7 failed, because of PRB ratio = 0.809524!'
+
+
+ans =
+
+    'try pairing user 2 and user 8 failed, because of PRB ratio = 5.809524!'
+
+
+ans =
+
+    'try pairing user 3 and user 4 failed, because of PRB ratio = 0.450000!'
+
+
+ans =
+
+    'try pairing user 3 and user 5 failed, because of PRB ratio = 0.080000!'
+
+
+ans =
+
+    'try pairing user 3 and user 7 failed, because of PRB ratio = 0.170000!'
+
+
+ans =
+
+    'try pairing user 3 and user 8 failed, because of PRB ratio = 1.220000!'
+
+
+ans =
+
+    'try pairing user 3 and user 11 failed, because of PRB ratio = 0.030000!'
+
+
+ans =
+
+    'try pairing user 3 and user 12 failed, because of PRB ratio = 0.050000!'
+
+
+ans =
+
+    'try pairing user 3 and user 13 failed, because of PRB ratio = 0.030000!'
+
+
+ans =
+
+    'try pairing user 3 and user 14 failed, because of PRB ratio = 0.050000!'
+
+
+ans =
+
+    'try pairing user 3 and user 15 failed, because of PRB ratio = 0.370000!'
+
+
+ans =
+
+    'try pairing user 3 and user 16 failed, because of PRB ratio = 0.120000!'
+
+
+ans =
+
+    'try pairing user 4 and user 5 failed, because of PRB ratio = 0.177778!'
+
+
+ans =
+
+    'try pairing user 4 and user 7 failed, due to corrFactor!'
+
+
+ans =
+
+    'try pairing user 4 and user 8 failed, because of PRB ratio = 2.711111!'
+
+
+ans =
+
+    'try pairing user 4 and user 11 failed, because of PRB ratio = 0.066667!'
+
+
+ans =
+
+    'try pairing user 4 and user 12 failed, because of PRB ratio = 0.111111!'
+
+
+ans =
+
+    'try pairing user 4 and user 13 failed, because of PRB ratio = 0.066667!'
+
+
+ans =
+
+    'try pairing user 4 and user 14 failed, because of PRB ratio = 0.111111!'
+
+
+ans =
+
+    'try pairing user 4 and user 15 failed, due to corrFactor!'
+
+
+ans =
+
+    'try pairing user 4 and user 16 failed, because of PRB ratio = 0.266667!'
+
+
+ans =
+
+    'try pairing user 5 and user 7 failed, because of PRB ratio = 2.125000!'
+
+
+ans =
+
+    'try pairing user 5 and user 8 failed, because of PRB ratio = 15.250000!'
+
+
+ans =
+
+    'try pairing user 5 and user 11 failed, because of PRB ratio = 0.375000!'
+
+
+ans =
+
+    'try pairing user 5 and user 12 failed, because of PRB ratio = 0.625000!'
+
+
+ans =
+
+    'try pairing user 5 and user 13 failed, due to corrFactor!'
+
+
+ans =
+
+    'try pairing user 5 and user 14 failed, because of PRB ratio = 0.625000!'
+
+
+ans =
+
+    'try pairing user 5 and user 15 failed, because of PRB ratio = 4.625000!'
+
+
+ans =
+
+    'try pairing user 5 and user 16 failed, because of PRB ratio = 1.500000!'
+
+
+ans =
+
+    'try pairing user 7 and user 8 failed, because of PRB ratio = 7.176471!'
+
+
+ans =
+
+    'try pairing user 7 and user 11 failed, because of PRB ratio = 0.176471!'
+
+
+ans =
+
+    'try pairing user 7 and user 12 failed, because of PRB ratio = 0.294118!'
+
+
+ans =
+
+    'try pairing user 7 and user 13 failed, because of PRB ratio = 0.176471!'
+
+
+ans =
+
+    'try pairing user 7 and user 14 failed, because of PRB ratio = 0.294118!'
+
+
+ans =
+
+    'try pairing user 7 and user 15 failed, due to corrFactor!'
+
+
+ans =
+
+    'try pairing user 7 and user 16 failed, because of PRB ratio = 0.705882!'
+
+
+ans =
+
+    'try pairing user 8 and user 11 failed as requestedRB:122 > availablePRBnum: 73!'
+
+
+ans =
+
+    'try pairing user 8 and user 12 failed as requestedRB:122 > availablePRBnum: 73!'
+
+
+ans =
+
+    'try pairing user 8 and user 13 failed as requestedRB:122 > availablePRBnum: 73!'
+
+
+ans =
+
+    'try pairing user 8 and user 14 failed as requestedRB:122 > availablePRBnum: 73!'
+
+
+ans =
+
+    'try pairing user 8 and user 15 failed as requestedRB:122 > availablePRBnum: 73!'
+
+
+ans =
+
+    'try pairing user 8 and user 16 failed as requestedRB:122 > availablePRBnum: 73!'
+
+
+ans =
+
+    'try pairing user 11 and user 12 failed, because of PRB ratio = 1.666667!'
+
+
+ans =
+
+    'try pairing user 15 and user 16 failed, because of PRB ratio = 0.324324!'
+
+pairing process done! output pairSet list are:
+ 
+pairSetList{1} =
+ 
+         ueNum: 1
+         msId1: 1
+         msId2: -1
+           prb: 7
+    corrFactor: 0
+      sinrMU_A: 9
+      sinrMU_B: -100
+      layerSum: 1
+
+ 
+ 
+pairSetList{2} =
+ 
+         ueNum: 2
+         msId1: 2
+         msId2: 9
+           prb: 21
+    corrFactor: 2.1152e-34
+      sinrMU_A: 15
+      sinrMU_B: 15
+      layerSum: 2
+
+ 
+ 
+pairSetList{3} =
+ 
+         ueNum: 1
+         msId1: 3
+         msId2: -1
+           prb: 100
+    corrFactor: 0
+      sinrMU_A: 23
+      sinrMU_B: -100
+      layerSum: 1
+
+ 
+ 
+pairSetList{4} =
+ 
+         ueNum: 1
+         msId1: 4
+         msId2: -1
+           prb: 45
+    corrFactor: 0
+      sinrMU_A: 19
+      sinrMU_B: -100
+      layerSum: 1
+
+ 
+ 
+pairSetList{5} =
+ 
+         ueNum: 1
+         msId1: 5
+         msId2: -1
+           prb: 8
+    corrFactor: 0
+      sinrMU_A: 10
+      sinrMU_B: -100
+      layerSum: 1
+
+ 
+ 
+pairSetList{6} =
+ 
+         ueNum: 1
+         msId1: 6
+         msId2: -1
+           prb: 2
+    corrFactor: 0
+      sinrMU_A: 2
+      sinrMU_B: -100
+      layerSum: 1
+
+ 
+ 
+pairSetList{7} =
+ 
+         ueNum: 1
+         msId1: 7
+         msId2: -1
+           prb: 17
+    corrFactor: 0
+      sinrMU_A: 14
+      sinrMU_B: -100
+      layerSum: 1
+
+ 
+ 
+pairSetList{8} =
+ 
+         ueNum: 1
+         msId1: 10
+         msId2: -1
+           prb: 2
+    corrFactor: 0
+      sinrMU_A: 1
+      sinrMU_B: -100
+      layerSum: 1
+
+ 
+ 
+pairSetList{9} =
+ 
+         ueNum: 2
+         msId1: 11
+         msId2: 13
+           prb: 3
+    corrFactor: 0.0432
+      sinrMU_A: 4.4438
+      sinrMU_B: 4.4438
+      layerSum: 2
+
+ 
+ 
+pairSetList{10} =
+ 
+         ueNum: 2
+         msId1: 12
+         msId2: 14
+           prb: 5
+    corrFactor: 8.9946e-33
+      sinrMU_A: 8
+      sinrMU_B: 7
+      layerSum: 2
+
+ 
+ 
+pairSetList{11} =
+ 
+         ueNum: 1
+         msId1: 15
+         msId2: -1
+           prb: 37
+    corrFactor: 0
+      sinrMU_A: 18
+      sinrMU_B: -100
+      layerSum: 1
+
+ 
+ 
+pairSetList{12} =
+ 
+         ueNum: 1
+         msId1: 16
+         msId2: -1
+           prb: 12
+    corrFactor: 0
+      sinrMU_A: 12
+      sinrMU_B: -100
+      layerSum: 1
+
+ 
+>> 
