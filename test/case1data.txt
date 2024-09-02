@@ -566,72 +566,97 @@ begin MU pairing process...
 
 ans =
 
-    'try pairing user 1 and user 2 failed, because of PRB ratio = 0.592593!'
+    'try pairing user 1 and user 2 failed, because of PRB ratio = 1.687500!'
 
 
 ans =
 
-    'try pairing user 5 and user 6 failed, because of PRB ratio = 0.857143!'
+    'try pairing user 5 and user 6 failed, because of PRB ratio = 1.166667!'
 
 
 ans =
 
-    'try pairing user 5 and user 7 failed, because of PRB ratio = 0.888889!'
+    'try pairing user 5 and user 7 failed, because of PRB ratio = 1.125000!'
 
 
 ans =
 
-    'try pairing user 5 and user 8 failed, because of PRB ratio = 1.333333!'
+    'try pairing user 5 and user 8 failed, because of PRB ratio = 0.750000!'
 
 
 ans =
 
-    'try pairing user 5 and user 9 failed, because of PRB ratio = 1.142857!'
+    'try pairing user 5 and user 9 failed, because of PRB ratio = 0.875000!'
 
 
 ans =
 
-    'try pairing user 5 and user 10 failed, because of PRB ratio = 0.857143!'
+    'try pairing user 5 and user 10 failed, because of PRB ratio = 1.166667!'
 
 
 ans =
 
-    'try pairing user 5 and user 11 failed, because of PRB ratio = 0.888889!'
+    'try pairing user 5 and user 11 failed, because of PRB ratio = 1.125000!'
 
 
 ans =
 
-    'try pairing user 8 and user 9 failed, because of PRB ratio = 0.857143!'
+    'try pairing user 8 and user 9 failed, because of PRB ratio = 1.166667!'
 
 
 ans =
 
-    'try pairing user 8 and user 10 failed, because of PRB ratio = 0.642857!'
+    'try pairing user 8 and user 10 failed, because of PRB ratio = 1.555556!'
 
 
 ans =
 
-    'try pairing user 8 and user 11 failed, because of PRB ratio = 0.666667!'
+    'try pairing user 8 and user 11 failed, because of PRB ratio = 1.500000!'
 
 
 ans =
 
-    'try pairing user 9 and user 10 failed, because of PRB ratio = 0.750000!'
+    'try pairing user 8 and user 13 failed, because of PRB ratio = 1.111111!'
 
 
 ans =
 
-    'try pairing user 9 and user 11 failed, because of PRB ratio = 0.777778!'
+    'try pairing user 8 and user 14 failed, because of PRB ratio = 1.611111!'
 
 
 ans =
 
-    'try pairing user 9 and user 14 failed, because of PRB ratio = 0.724138!'
+    'try pairing user 8 and user 15 failed, because of PRB ratio = 1.166667!'
 
 
 ans =
 
-    'try pairing user 14 and user 16 failed, because of PRB ratio = 1.115385!'
+    'try pairing user 8 and user 16 failed, due to corrFactor!'
+
+
+ans =
+
+    'try pairing user 9 and user 10 failed, because of PRB ratio = 1.333333!'
+
+
+ans =
+
+    'try pairing user 9 and user 11 failed, because of PRB ratio = 1.285714!'
+
+
+ans =
+
+    'try pairing user 14 and user 15 failed, because of PRB ratio = 0.724138!'
+
+
+ans =
+
+    'try pairing user 14 and user 16 failed, because of PRB ratio = 0.896552!'
+
+
+ans =
+
+    'try pairing user 15 and user 16 failed, because of PRB ratio = 1.238095!'
 
 pairing process done! output pairSet list are:
  
@@ -689,14 +714,14 @@ pairSetList{4} =
  
 pairSetList{5} =
  
-         ueNum: 2
+         ueNum: 1
          msId1: 8
-         msId2: 13
+         msId2: -1
            prb: 18
-    corrFactor: 0.0100
-      sinrMU_A: 4.8642
-      sinrMU_B: 4.8642
-      layerSum: 2
+    corrFactor: 0
+      sinrMU_A: 5
+      sinrMU_B: -100
+      layerSum: 1
 
  
  
@@ -704,11 +729,11 @@ pairSetList{6} =
  
          ueNum: 2
          msId1: 9
-         msId2: 15
+         msId2: 13
            prb: 21
-    corrFactor: 1.2519e-32
-      sinrMU_A: 29
-      sinrMU_B: 28
+    corrFactor: 1.9338e-12
+      sinrMU_A: 29.0000
+      sinrMU_B: 5.0000
       layerSum: 2
 
  
@@ -740,6 +765,19 @@ pairSetList{8} =
  
  
 pairSetList{9} =
+ 
+         ueNum: 1
+         msId1: 15
+         msId2: -1
+           prb: 21
+    corrFactor: 0
+      sinrMU_A: 28
+      sinrMU_B: -100
+      layerSum: 1
+
+ 
+ 
+pairSetList{10} =
  
          ueNum: 1
          msId1: 16
