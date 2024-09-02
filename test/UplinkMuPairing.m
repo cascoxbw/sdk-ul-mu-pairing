@@ -54,7 +54,7 @@ maxMuLayerNum = 4;
 corrThreshold = 0.3;
 availablePRBnum = systemBandwidth;
 %%%%%%%%%%%%%%% choose to use which candidate UE List %%%%%%%%%%%%%
-candidateUEList = CS1;
+candidateUEList = CS2;
 disp('The input candidateUE list are:')
 celldisp(candidateUEList);
 disp('the beam weights of candidateUE are:')
@@ -257,7 +257,7 @@ end
 function [flag, ratio] = checkPRBratio(userA, userB)       
        PRB_userA = userA.requestedRBs;  
        PRB_userB = userB.requestedRBs;       
-       ratio = PRB_userA/PRB_userB;
+       ratio = PRB_userB/PRB_userA;
        if (ratio>=0.9) &&(ratio<=1.1)
            flag = 1;
        else 
