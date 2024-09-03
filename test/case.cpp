@@ -285,33 +285,22 @@ class Pair : public ::testing::Test
     }
 };
 
-TEST_F(Pair, In2ueOut1set) 
+TEST_F(Pair, In3UeOut2Set) 
 {
-    sInput in = {};
-    in.ueNum = 2;
-    in.ue[0].id = 23;
-    in.ue[0].layer = 1;
-    in.ue[0].prb = 120;
-    in.ue[0].sinrSu = 5;
-
-    in.ue[1].id = 156;
-    in.ue[1].layer = 1;
-    in.ue[1].prb = 115;
-    in.ue[1].sinrSu = 7;
-
+    inT.ueNum = 3;
     sOutput out = {};
 
-    bool result = UlMuPair(&in,&out);
+    bool result = UlMuPair(&inT,&out);
 
     EXPECT_EQ(result, true);
-    EXPECT_EQ(out.setNum, 1);
+    EXPECT_EQ(out.setNum, 2);
     EXPECT_EQ(out.set[0].ueNum, 2);
-    EXPECT_EQ(out.set[0].prb, 120);
-    EXPECT_EQ(out.set[0].ueId[0], 23);
-    EXPECT_EQ(out.set[0].ueId[1], 156);
+    EXPECT_EQ(out.set[0].prb, 16);
+    EXPECT_EQ(out.set[0].ueId[0], 1);
+    EXPECT_EQ(out.set[0].ueId[1], 3);
 }
 
-TEST_F(Pair, In16ueOut10Set) 
+TEST_F(Pair, In16UeOut10Set) 
 {
     sOutput out = {};
 
@@ -325,10 +314,10 @@ TEST_F(Pair, In16ueOut10Set)
         EXPECT_EQ(out.set[setIndex].ueNum, outT.set[setIndex].ueNum);
         EXPECT_EQ(out.set[setIndex].ueId[0], outT.set[setIndex].ueId[0]);
         EXPECT_EQ(out.set[setIndex].ueId[1], outT.set[setIndex].ueId[1]);
-        // EXPECT_EQ(out.set[setIndex].sinrMu[0], outT.set[setIndex].sinrMu[0]);
-        // EXPECT_EQ(out.set[setIndex].sinrMu[1], outT.set[setIndex].sinrMu[1]);
+        EXPECT_EQ(out.set[setIndex].sinrMu[0], outT.set[setIndex].sinrMu[0]);
+        EXPECT_EQ(out.set[setIndex].sinrMu[1], outT.set[setIndex].sinrMu[1]);
         EXPECT_EQ(out.set[setIndex].prb, outT.set[setIndex].prb);
-        // EXPECT_EQ(out.set[setIndex].corrFactor, outT.set[setIndex].corrFactor);
+        EXPECT_EQ(out.set[setIndex].corrFactor, outT.set[setIndex].corrFactor);
         EXPECT_EQ(out.set[setIndex].layerSum, outT.set[setIndex].layerSum);
     }
 }
