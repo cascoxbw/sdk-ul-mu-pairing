@@ -163,7 +163,7 @@ bool UlMuPair(sInput* pIn, sOutput* pOut)
             // fill pairset info
             pSetTemp->ueId[pSetTemp->ueNum] = pUe[ueIndex].id;
             pSetTemp->layerSum += pUe[ueIndex].layer;
-            pSetTemp->corrFactor = corr;
+            pSetTemp->corrFactor[pSetTemp->ueNum] = corr;
             pSetTemp->sinrMu[0] = sinrMuRoot;
             pSetTemp->sinrMu[pSetTemp->ueNum] = sinrMuPair;
             pSetTemp->ueNum++;

@@ -197,7 +197,7 @@ class Pair : public ::testing::Test
         outT.set[0].sinrMu[0] = 8.6666;
         outT.set[0].sinrMu[1] = 19.4679;
         outT.set[0].prb = 16;
-        outT.set[0].corrFactor = 0.01;
+        outT.set[0].corrFactor[1] = 0.01;
         outT.set[0].layerSum = 2;
 
         outT.set[1].ueNum = 2;
@@ -206,7 +206,7 @@ class Pair : public ::testing::Test
         outT.set[1].sinrMu[0] = 21.4836;
         outT.set[1].sinrMu[1] = 11.7367;
         outT.set[1].prb = 27;
-        outT.set[1].corrFactor = 0.0039;
+        outT.set[1].corrFactor[1] = 0.0039;
         outT.set[1].layerSum = 2;
 
         outT.set[2].ueNum = 2;
@@ -215,7 +215,7 @@ class Pair : public ::testing::Test
         outT.set[2].sinrMu[0] = 5.6787;
         outT.set[2].sinrMu[1] = 16.872;
         outT.set[2].prb = 24;
-        outT.set[2].corrFactor = 0.0193;
+        outT.set[2].corrFactor[1] = 0.0193;
         outT.set[2].layerSum = 2;
 
         outT.set[3].ueNum = 2;
@@ -224,7 +224,7 @@ class Pair : public ::testing::Test
         outT.set[3].sinrMu[0] = 20;
         outT.set[3].sinrMu[1] = 9;
         outT.set[3].prb = 28;
-        outT.set[3].corrFactor = 0.0001;
+        outT.set[3].corrFactor[1] = 0.0001;
         outT.set[3].layerSum = 2;
 
         outT.set[4].ueNum = 1;
@@ -233,7 +233,7 @@ class Pair : public ::testing::Test
         outT.set[4].sinrMu[0] = 0;
         outT.set[4].sinrMu[1] = 0;
         outT.set[4].prb = 18;
-        outT.set[4].corrFactor = 0;
+        outT.set[4].corrFactor[0] = 0;
         outT.set[4].layerSum = 1;
 
         outT.set[5].ueNum = 2;
@@ -242,7 +242,7 @@ class Pair : public ::testing::Test
         outT.set[5].sinrMu[0] = 29;
         outT.set[5].sinrMu[1] = 5;
         outT.set[5].prb = 21;
-        outT.set[5].corrFactor = 0.0001;
+        outT.set[5].corrFactor[1] = 0.0001;
         outT.set[5].layerSum = 2;
 
         outT.set[6].ueNum = 2;
@@ -251,7 +251,7 @@ class Pair : public ::testing::Test
         outT.set[6].sinrMu[0] = 7;
         outT.set[6].sinrMu[1] = 16;
         outT.set[6].prb = 28;
-        outT.set[6].corrFactor = 0.0001;
+        outT.set[6].corrFactor[1] = 0.0001;
         outT.set[6].layerSum = 2;
 
         outT.set[7].ueNum = 1;
@@ -260,7 +260,7 @@ class Pair : public ::testing::Test
         outT.set[7].sinrMu[0] = 0;
         outT.set[7].sinrMu[1] = 0;
         outT.set[7].prb = 29;
-        outT.set[7].corrFactor = 0;
+        outT.set[7].corrFactor[0] = 0;
         outT.set[7].layerSum = 1;
 
         outT.set[8].ueNum = 1;
@@ -269,7 +269,7 @@ class Pair : public ::testing::Test
         outT.set[8].sinrMu[0] = 0;
         outT.set[8].sinrMu[1] = 0;
         outT.set[8].prb = 21;
-        outT.set[8].corrFactor = 0;
+        outT.set[8].corrFactor[0] = 0;
         outT.set[8].layerSum = 1;
 
         outT.set[9].ueNum = 1;
@@ -278,7 +278,7 @@ class Pair : public ::testing::Test
         outT.set[9].sinrMu[0] = 0;
         outT.set[9].sinrMu[1] = 0;
         outT.set[9].prb = 26;
-        outT.set[9].corrFactor = 0;
+        outT.set[9].corrFactor[0] = 0;
         outT.set[9].layerSum = 1;
 
         printf("output setup, output set num=%d\n", outT.setNum);
@@ -317,7 +317,7 @@ TEST_F(Pair, In16UeOut10Set)
         EXPECT_EQ(out.set[setIndex].sinrMu[0], outT.set[setIndex].sinrMu[0]);
         EXPECT_EQ(out.set[setIndex].sinrMu[1], outT.set[setIndex].sinrMu[1]);
         EXPECT_EQ(out.set[setIndex].prb, outT.set[setIndex].prb);
-        EXPECT_EQ(out.set[setIndex].corrFactor, outT.set[setIndex].corrFactor);
+        EXPECT_EQ(out.set[setIndex].corrFactor[1], outT.set[setIndex].corrFactor[1]);
         EXPECT_EQ(out.set[setIndex].layerSum, outT.set[setIndex].layerSum);
     }
 }
