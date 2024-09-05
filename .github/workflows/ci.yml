@@ -42,5 +42,4 @@ jobs:
         name: output
         path: |
           ${{github.workspace}}/build/libpair.a
-          ${{github.workspace}}/lib/UlMuPair.cpp
-          ${{github.workspace}}/lib/UlMuPair.hpp
+          ${{github.workspace}}/lib/*
