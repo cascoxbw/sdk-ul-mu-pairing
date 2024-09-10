@@ -49,9 +49,9 @@ static void UlMuPairCalcSinr(float* vectorA, float* vectorB, float sinrSuA, floa
 }
 
 /**
- * Check sinr mu
+ * Check Spectrum Efficiency
  */
-static bool UlMuPairCheckSinr(float sinrSuA, float sinrSuB, float sinrMuA, float sinrMuB)
+static bool UlMuPairCheckSpectrumEfficiency(float sinrSuA, float sinrSuB, float sinrMuA, float sinrMuB)
 {
     float linearMuA = powf(10, sinrMuA / 10);
     float linearMuB = powf(10, sinrMuB / 10);
@@ -167,7 +167,7 @@ bool UlMuPair(sInput* pIn, sOutput* pOut)
             float sinrMuPair = 0;
             UlMuPairCalcSinr(pUe[rootIndex].vector, pUe[ueIndex].vector, pUe[rootIndex].sinrSu, pUe[ueIndex].sinrSu, 
                              &sinrMuRoot, &sinrMuPair);
-            if (!UlMuPairCheckSinr(pUe[rootIndex].sinrSu, pUe[ueIndex].sinrSu, sinrMuRoot, sinrMuPair))
+            if (!UlMuPairCheckSpectrumEfficiency(pUe[rootIndex].sinrSu, pUe[ueIndex].sinrSu, sinrMuRoot, sinrMuPair))
             {
                 continue;
             }
