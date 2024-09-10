@@ -2,6 +2,9 @@
 #include <math.h>
 #include "UlMuPair.hpp"
 
+/**
+ * Calculation of correlation factor
+ */
 static float UlMuPairCalcCorr(float* vectorA, float* vectorB)
 {
     float ab2 = 0;
@@ -18,6 +21,9 @@ static float UlMuPairCalcCorr(float* vectorA, float* vectorB)
     return ab2 / a2 / b2;
 }
 
+/**
+ * Calculation of sinr mu
+ */
 static void UlMuPairCalcSinr(float* vectorA, float* vectorB, float sinrSuA, float sinrSuB, float* sinrMuA, float* sinrMuB)
 {
     float ab2 = 0;
@@ -42,6 +48,9 @@ static void UlMuPairCalcSinr(float* vectorA, float* vectorB, float sinrSuA, floa
     *sinrMuB = 10 * log10f(sinrB);
 }
 
+/**
+ * Check sinr mu
+ */
 static bool UlMuPairCheckSinr(float sinrSuA, float sinrSuB, float sinrMuA, float sinrMuB)
 {
     float linearMuA = powf(10, sinrMuA / 10);
@@ -53,6 +62,9 @@ static bool UlMuPairCheckSinr(float sinrSuA, float sinrSuB, float sinrMuA, float
     return seMu > seSu;
 }
 
+/**
+ * Pair main program
+ */
 bool UlMuPair(sInput* pIn, sOutput* pOut)
 {
     sUe* pUe = pIn->ue;
