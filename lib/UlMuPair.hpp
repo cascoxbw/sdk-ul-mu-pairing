@@ -11,6 +11,8 @@
 #define UeLayer     1
 #define PairSetLayer MaxPair * UeLayer
 
+#define Min(X, Y) (((X) < (Y)) ? (X) : (Y));
+
 struct sUe
 {
     int   id;
