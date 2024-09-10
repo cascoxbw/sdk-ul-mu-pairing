@@ -2,6 +2,8 @@
 #include <math.h>
 #include "UlMuPair.hpp"
 
+#define Min(X, Y) (((X) < (Y)) ? (X) : (Y));
+
 /**
  * Calculation of correlation factor
  */
@@ -108,7 +110,7 @@ bool UlMuPair(sInput* pIn, sOutput* pOut)
         int rootIndex = totalUe;
         for (int ueIndex = 0; ueIndex < totalUe; ueIndex++)
         {
-            if (availUeMap[ueIndex] && availPrb >= pUe[ueIndex].prb)
+            if (availUeMap[ueIndex] /*&& availPrb >= pUe[ueIndex].prb*/)
             {
                 rootIndex = ueIndex;
                 break;
@@ -124,7 +126,7 @@ bool UlMuPair(sInput* pIn, sOutput* pOut)
         // fill pairset info
         sPairSet* pSetTemp = pSet + setIndex;
         pSetTemp->ueId[0] = pUe[rootIndex].id;
-        pSetTemp->prb = pUe[rootIndex].prb;
+        pSetTemp->prb = Min(pUe[rootIndex].prb, availPrb);
         pSetTemp->layerSum = pUe[rootIndex].layer;
         pSetTemp->ueNum = 1;
         pOut->setNum++;
