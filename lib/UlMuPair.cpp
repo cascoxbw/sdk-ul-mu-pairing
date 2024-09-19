@@ -63,7 +63,7 @@ static bool UlMuPairCheckSpectrumEfficiency(float sinrSuA, float sinrSuB, float 
 }
 
 /**
- * Pair main program
+ * main program
  */
 bool UlMuPair(sInput* pIn, sOutput* pOut)
 {
@@ -126,6 +126,7 @@ bool UlMuPair(sInput* pIn, sOutput* pOut)
         pSetTemp->ueId[0] = pUe[rootIndex].id;
         pSetTemp->prb = Min(pUe[rootIndex].prb, availPrb);
         pSetTemp->layerSum = pUe[rootIndex].layer;
+        pSetTemp->corrFactor[0] = 0;
         pSetTemp->ueNum = 1;
         pOut->setNum++;
 
